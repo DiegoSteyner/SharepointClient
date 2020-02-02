@@ -1,0 +1,16 @@
+package br.com.sharepointclient.dados;
+
+public enum ResponseStatus {
+    
+    ARQUIVO_CRIADO, 
+    ARQUIVO_SOBRESCRITO, 
+    ARQUIVO_EXISTE, 
+    ARQUIVO_NAO_EXISTE,
+    HIERARQUIA_SEC_QUEBRADA,
+    HIERARQUIA_SEC_MANTIDA,
+    TOKEN_CONFIGURADO,
+    TOKEN_NAO_CONFIGURADO,
+    ARQUIVO_MOVIDO,
+    ARQUIVO_NAO_MOVIDO
+
+}
